@@ -5,9 +5,11 @@
 
 body {
   font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
-  background-color: #fff;
+  background-color: #fffffd;
   font-size: 14px;
 }
+
+
 span.red {
   color: red;
 }
@@ -48,10 +50,13 @@ nav ul li a.selected {
 }
 
 #logo img {
-  max-width: 250px;
-  max-height: 250px;
-  border: 2px solid #444;
+  max-width: 150px;
+  max-height: 150px;
+  border: 2px solid #888;
   border-radius: 0%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #logo h1 {
@@ -61,7 +66,12 @@ nav ul li a.selected {
   font-size: 25px;
 }
 
-#iro p a {
+#logo p {
+  text-align: center;
+  padding: 10px 10px;
+}
+
+#iro p a{
   color: orange;
 
 }
