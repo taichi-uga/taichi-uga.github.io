@@ -34,7 +34,7 @@ nav ul li a {
 }
 
 
-#logo img {
+img.logo {
   max-width: 150px;
   max-height: 150px;
   border: 2px solid #888;
@@ -46,16 +46,10 @@ nav ul li a {
 }
 
 
-#logo p {
+p{
   text-align: center;
   padding: 0px 0px 0px 0px;
 }
-
-#logo h3 {
-  text-align: center;
-  padding: 10px 0px 0px 0px;
-}
-
 
 #aa {
 font-size:15px;
@@ -63,7 +57,7 @@ color:gray;
 }
 
 
-section {
+row{
   padding: 0px 0px 150px 0px;
 }
 
